@@ -32,7 +32,7 @@ func main() {
 	fmt.Println("Apakah jumlah karakter x dan o sama?", cekJumlahXO(kata))
 
 	// Nomor 3 Logic 3 - XOXO
-		// Membuat slice integer
+	// Membuat slice integer
 	slice := []int{9, 4, 7, 2, 1, 6}
 
 	// Mengurutkan slice dari besar ke kecil
@@ -48,7 +48,7 @@ func main() {
 	// Menampilkan hasil setelah diurutkan
 	fmt.Println("Slice setelah diurutkan:", slice)
 
-// Nomor 4 Logic 4 - Asterisk Level 1
+	// Nomor 4 Logic 4 - Asterisk Level 1
 	rows1 := 5
 
 	fmt.Println("Asterik")
@@ -86,7 +86,7 @@ func main() {
 
 	fmt.Println("ASterik4")
 	for i := 0; i < rows4; i++ {
-		for j := rows4-i; j > 0; j-- {
+		for j := rows4 - i; j > 0; j-- {
 			fmt.Print("*")
 		}
 		fmt.Println()
